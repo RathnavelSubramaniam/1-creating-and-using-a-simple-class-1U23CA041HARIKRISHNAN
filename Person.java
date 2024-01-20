@@ -19,7 +19,7 @@ public class Person
     public static void main(String[]args)
     {
         Person1 p1=new Person1("Jhon","Doe",30);
-        Person1 p2=new Person1("Alice","smith",25);
+        Person1 p2=new Person1("Alice","Smith",25);
         System.out.println("Person1:"+p1.getfullname());
         System.out.println("Person2:"+p2.getfullname());
         double a1=((p1.age+p2.age)/2);
